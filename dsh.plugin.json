@@ -1,0 +1,14 @@
+{
+  "name": "@dsh-external/dsh-team-model",
+  "description": "DSH Agent Teams 模型路由：Lead 跟随主对话，所有非 Lead teammate 共用一套可选配置（提供商 / 模型 / 思考强度）",
+  "version": "0.1.0",
+  "entry": {
+    "name": "@dsh-external/dsh-team-model",
+    "inject": [
+      "subagents"
+    ]
+  },
+  "client": {
+    "platform": "web"
+  }
+}
